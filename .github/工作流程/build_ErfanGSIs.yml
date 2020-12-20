@@ -14,8 +14,15 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://github.com/together08/actions_build_erfangsis
-  ROM_NAME: MIUI12
+  ROM_URL: echo "# xiaoranaigaoji" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gaojidexiaoran/xiaoranaigaoji.git
+git push -u origin main
+                
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
