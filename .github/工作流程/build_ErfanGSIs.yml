@@ -14,8 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://github.com/together08/actions_build_erfangsis
-  ROM_NAME: MIUI12
+  ROM_URL:https://bigota.d.miui.com/20.12.25/miui_LAURUS_20.12.25_7db37d39cf_10.0.zip
+小米9se
+  ROM_NAME: MIUI12.5
   TZ: Asia/Shanghai
 
 jobs:
